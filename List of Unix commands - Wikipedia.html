@@ -1,0 +1,2528 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://en.wikipedia.org/wiki/List_of_Unix_commands -->
+<html class="client-js ve-available" lang="en" dir="ltr">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>List of Unix commands - Wikipedia</title>
+
+	<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+		.wikitable{
+			font-family: 'Roboto Slab', serif;
+			border: 1px solid black;
+			border-radius: 2px;
+			display: flex;
+			flex-direction: column;
+			font-size: medium;
+		}
+
+		thead > *{
+			display: flex;
+		}
+
+		td{
+			text-align: center;
+		}
+
+		body{
+			background-color: rgb(243, 171, 38);
+		}
+
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<table class="wikitable sortable" border="1">
+		<caption>IEEE Std 1003.1-2008 utilities
+		</caption>
+		<thead>
+			<tr>
+				<th scope="col" style="width: 5em;" class="headerSort" tabindex="0" role="columnheader button"
+					title="Sort ascending">Name
+				</th>
+				<th scope="col" style="width: 10em;" class="headerSort" tabindex="0" role="columnheader button"
+					title="Sort ascending">Category
+				</th>
+				<th scope="col" style="width: 10em;" class="headerSort" tabindex="0" role="columnheader button"
+					title="Sort ascending">Status (Option code)
+				</th>
+				<th scope="col" style="width: 20em;" class="headerSort" tabindex="0" role="columnheader button"
+					title="Sort ascending">Description
+				</th>
+				<th scope="col" style="width: 10em;margin-left: 6em;" class="headerSort" tabindex="0" role="columnheader button"
+					title="Sort ascending">First appeared
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Admin_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Admin (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">admin</code></a>
+				</th>
+				<td><a href="/wiki/Source_Code_Control_System" title="Source Code Control System">SCCS</a>
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Create and administer <a href="/wiki/Source_Code_Control_System"
+						title="Source Code Control System">SCCS</a> files
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Alias_(command)" title="Alias (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">alias</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Define or display aliases
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Ar_(Unix)" title="Ar (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ar</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Create and maintain <a href="/wiki/Library_(computing)" title="Library (computing)">library</a>
+					archives
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Asa_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Asa (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">asa</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Optional (FR)
+				</td>
+				<td>Interpret carriage-control characters
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/At_(command)" title="At (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">at</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Execute commands at a later time
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/AWK" title="AWK"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">awk</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Pattern scanning and processing language
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Basename" title="Basename"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">basename</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Return non-directory portion of a pathname; see also dirname
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Batch_(Unix)" class="mw-redirect" title="Batch (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">batch</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Schedule commands to be executed in a batch queue
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Bc_(programming_language)" title="Bc (programming language)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">bc</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td><a href="/wiki/Arbitrary-precision_arithmetic"
+						title="Arbitrary-precision arithmetic">Arbitrary-precision arithmetic</a> language
+				</td>
+				<td>Version 6 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Bg_(Unix)" class="mw-redirect" title="Bg (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">bg</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Optional (UP)
+				</td>
+				<td>Run jobs in the background
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/C_compiler" class="mw-redirect" title="C compiler"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cc</code></a>/<a href="/wiki/C99" title="C99"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">c99</code></a>
+				</th>
+				<td>C programming
+				</td>
+				<td>Optional (CD)
+				</td>
+				<td><a href="/wiki/Compiler" title="Compiler">Compile</a> standard <a
+						href="/wiki/C_(programming_language)" title="C (programming language)">C</a> programs
+				</td>
+				<td>IEEE Std 1003.1-2001
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Cal_(Unix)" title="Cal (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cal</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Print a calendar
+				</td>
+				<td>Version 5 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Cat_(Unix)" title="Cat (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cat</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Concatenate and print files
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Cd_(command)" title="Cd (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cd</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Change the working directory
+				</td>
+				<td>Version 6 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Cflow" class="mw-redirect" title="Cflow"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cflow</code></a>
+				</th>
+				<td>C programming
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Generate a C-language <a href="/wiki/Call_graph" title="Call graph">call graph</a>
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Chgrp" title="Chgrp"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">chgrp</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Change the file group ownership
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Chmod" title="Chmod"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">chmod</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Change the file modes/attributes/permissions
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Chown" title="Chown"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">chown</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Change the file ownership
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Cksum" title="Cksum"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cksum</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Write file <a href="/wiki/Checksum" title="Checksum">checksums</a> and sizes
+				</td>
+				<td>4.4BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Cmp_(Unix)" title="Cmp (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cmp</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Compare two files; see also diff
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Comm" title="Comm"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">comm</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Select or reject lines common to two files
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Command_(Unix)" title="Command (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">command</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Execute a simple command
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Compress" title="Compress"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">compress</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Compress data
+				</td>
+				<td>4.3BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Cp_(Unix)" title="Cp (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cp</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Copy files
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Crontab" class="mw-redirect" title="Crontab"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">crontab</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Schedule periodic background work
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Csplit" title="Csplit"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">csplit</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Split files based on context
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Ctags" title="Ctags"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ctags</code></a>
+				</th>
+				<td>C programming
+				</td>
+				<td>Optional (SD)
+				</td>
+				<td>Create a tags file
+				</td>
+				<td>3BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Cut_(Unix)" title="Cut (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cut</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Cut out selected fields of each line of a file
+				</td>
+				<td>System III
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Cxref&amp;action=edit&amp;redlink=1" class="new"
+						title="Cxref (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">cxref</code></a>
+				</th>
+				<td>C programming
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Generate a <a href="/wiki/C_(programming_language)" title="C (programming language)">C-language</a>
+					program cross-reference table
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Unix_time#Command_line" title="Unix time"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">date</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Display the date and time
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Dd_(Unix)" title="Dd (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">dd</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Convert and copy a file
+				</td>
+				<td>Version 5 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Delta_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Delta (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">delta</code></a>
+				</th>
+				<td>SCCS
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Make a delta (change) to an SCCS file
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Df_(Unix)" title="Df (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">df</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Report free disk space
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Diff" title="Diff"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">diff</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Compare two files; see also cmp
+				</td>
+				<td>Version 5 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Dirname" title="Dirname"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">dirname</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Return the directory portion of a pathname; see also basename
+				</td>
+				<td>System III
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Du_(Unix)" title="Du (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">du</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Estimate file space usage
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Echo_(command)" title="Echo (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">echo</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Write arguments to standard output
+				</td>
+				<td>Version 2 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Ed_(text_editor)" title="Ed (text editor)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ed</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>The standard text editor
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Env_(shell)" class="mw-redirect" title="Env (shell)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">env</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Set the environment for command invocation
+				</td>
+				<td>System III
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Ex_(text_editor)" title="Ex (text editor)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ex</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Text editor
+				</td>
+				<td>1BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Expand_(Unix)" title="Expand (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">expand</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Convert tabs to spaces
+				</td>
+				<td>3BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Expr" title="Expr"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">expr</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Evaluate arguments as an expression
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/False_(Unix)" class="mw-redirect" title="False (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">false</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Return false value
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Fc_(Unix)" title="Fc (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">fc</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Optional (UP)
+				</td>
+				<td>Process the command history list
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Fg_(Unix)" class="mw-redirect" title="Fg (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">fg</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Optional (UP)
+				</td>
+				<td>Run jobs in the foreground
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/File_(command)" title="File (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">file</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Determine file type
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Find_(Unix)" title="Find (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">find</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Find files
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Fold_(Unix)" title="Fold (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">fold</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Filter for folding lines
+				</td>
+				<td>1BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Fort77" class="mw-redirect" title="Fort77"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">fort77</code></a>
+				</th>
+				<td>FORTRAN77 programming
+				</td>
+				<td>Obsolescent (FD)
+				</td>
+				<td><a href="/wiki/FORTRAN" class="mw-redirect" title="FORTRAN">FORTRAN</a> compiler
+				</td>
+				<td>XPG4
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Fuser_(Unix)" title="Fuser (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">fuser</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>List <a href="/wiki/Process_identifier" title="Process identifier">process IDs</a> of all processes
+					that have one or more files open
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Gencat&amp;action=edit&amp;redlink=1" class="new"
+						title="Gencat (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">gencat</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Generate a formatted message catalog
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Get_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Get (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">get</code></a>
+				</th>
+				<td>SCCS
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Get a version of an SCCS file
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Getconf&amp;action=edit&amp;redlink=1" class="new"
+						title="Getconf (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">getconf</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Get configuration values
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Getopts" title="Getopts"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">getopts</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Parse utility options
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Grep" title="Grep"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">grep</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Search text for a pattern
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Hash_(Unix)" title="Hash (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">hash</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Hash database access method
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Head_(Unix)" title="Head (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">head</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Copy the first part of files
+				</td>
+				<td>PWB UNIX<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a
+								href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span
+									title="This claim needs references to reliable sources. (May 2009)">citation
+									needed</span></a></i>]</sup>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Iconv" title="Iconv"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">iconv</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Codeset conversion
+				</td>
+				<td>HP-UX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Id_(Unix)" class="mw-redirect" title="Id (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">id</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Return user identity
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Ipcrm" title="Ipcrm"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ipcrm</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Remove a message queue, semaphore set, or shared memory segment identifier
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Ipcs" title="Ipcs"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ipcs</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Report interprocess communication facilities status
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Jobs_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Jobs (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">jobs</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Optional (UP)
+				</td>
+				<td>Display status of jobs in the current session
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Join_(Unix)" title="Join (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">join</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Merges two sorted text files based on the presence of a common field
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Kill_(command)" title="Kill (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">kill</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Terminate or signal processes
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Lex_programming_tool" class="mw-redirect"
+						title="Lex programming tool"><code class="mw-highlight mw-highlight-lang-text mw-content-ltr"
+							id="" style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">lex</code></a>
+				</th>
+				<td>C programming
+				</td>
+				<td>Optional (CD)
+				</td>
+				<td>Generate programs for <a href="/wiki/Lexical_analyzer" class="mw-redirect"
+						title="Lexical analyzer">lexical tasks</a>
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Link_(Unix)" title="Link (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">link</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Create a hard link to a file
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Ln_(Unix)" title="Ln (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ln</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Link files
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Locale_(Unix_command)&amp;action=edit&amp;redlink=1"
+						class="new" title="Locale (Unix command) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">locale</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Get locale-specific information
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Localedef&amp;action=edit&amp;redlink=1" class="new"
+						title="Localedef (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">localedef</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Define locale environment
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Logger_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Logger (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">logger</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Log messages
+				</td>
+				<td>4.3BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Logname" title="Logname"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">logname</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Return the user's login name
+				</td>
+				<td>4.4BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Lp_(Unix)" class="mw-redirect" title="Lp (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">lp</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Send files to a printer
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Ls" title="Ls"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ls</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>List directory contents
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/M4_(computer_language)" title="M4 (computer language)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">m4</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Macro processor
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Mailx" title="Mailx"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">mailx</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Process messages
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Make_(software)" title="Make (software)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">make</code></a>
+				</th>
+				<td>Programming
+				</td>
+				<td>Optional (SD)
+				</td>
+				<td>Maintain, update, and regenerate groups of programs
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Man_page" title="Man page"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">man</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Display system documentation
+				</td>
+				<td>Version 2 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Mesg" title="Mesg"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">mesg</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Permit or deny messages
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Mkdir" title="Mkdir"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">mkdir</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Make directories
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Mkfifo" class="mw-redirect" title="Mkfifo"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">mkfifo</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Make <a href="/wiki/FIFO_(computing_and_electronics)"
+						title="FIFO (computing and electronics)">FIFO</a> special files
+				</td>
+				<td>4.4BSD<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a
+								href="/wiki/Wikipedia:Accuracy_dispute#Disputed_statement"
+								title="Wikipedia:Accuracy dispute"><span
+									title="The material near this tag is possibly inaccurate or nonfactual. (April 2014)">dubious</span></a>
+							<span class="metadata"> – <a href="/wiki/Talk:List_of_Unix_commands#mkfifo"
+									title="Talk:List of Unix commands">discuss</a></span></i>]</sup>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/More_(command)" title="More (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">more</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Optional (UP)
+				</td>
+				<td>Display files on a page-by-page basis
+				</td>
+				<td>3BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Mv" title="Mv"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">mv</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Move or rename files
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Newgrp&amp;action=edit&amp;redlink=1" class="new"
+						title="Newgrp (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">newgrp</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Change to a new group
+				</td>
+				<td>Version 6 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Nice_(Unix)" title="Nice (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">nice</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Invoke a utility with an altered nice value
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Nl_(Unix)" title="Nl (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">nl</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Line numbering filter
+				</td>
+				<td>System III
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Nm_(Unix)" title="Nm (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">nm</code></a>
+				</th>
+				<td>C programming
+				</td>
+				<td>Optional (SD, XSI)
+				</td>
+				<td>Write the name list of an <a href="/wiki/Object_file" title="Object file">object file</a>
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Nohup" title="Nohup"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">nohup</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Invoke a utility immune to <a href="/wiki/SIGHUP" title="SIGHUP">hangups</a>
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Od_(Unix)" title="Od (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">od</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Dump files in various formats
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Paste_(Unix)" title="Paste (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">paste</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Merge corresponding or subsequent lines of files
+				</td>
+				<td>Version 32V AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Patch_(Unix)" title="Patch (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">patch</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Apply changes to files
+				</td>
+				<td>4.3BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Pathchk&amp;action=edit&amp;redlink=1" class="new"
+						title="Pathchk (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">pathchk</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Check pathnames
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Pax_(command)" title="Pax (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">pax</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Portable archive interchange
+				</td>
+				<td>4.4BSD<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a
+								href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span
+									title="This claim needs references to reliable sources. (December 2014)">citation
+									needed</span></a></i>]</sup>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Pr_(Unix)" title="Pr (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">pr</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Print files
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Printf_(Unix)" title="Printf (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">printf</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Write formatted output
+				</td>
+				<td>4.3BSD-Reno
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Prs&amp;action=edit&amp;redlink=1" class="new"
+						title="Prs (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">prs</code></a>
+				</th>
+				<td>SCCS
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Print an SCCS file
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Ps_(Unix)" title="Ps (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ps</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Report process status
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Pwd" title="Pwd"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">pwd</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Print working directory
+				</td>
+				<td>Version 5 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qalter&amp;action=edit&amp;redlink=1" class="new"
+						title="Qalter (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qalter</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Alter batch job
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qdel&amp;action=edit&amp;redlink=1" class="new"
+						title="Qdel (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qdel</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Delete batch jobs
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qhold&amp;action=edit&amp;redlink=1" class="new"
+						title="Qhold (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qhold</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Hold batch jobs
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qmove&amp;action=edit&amp;redlink=1" class="new"
+						title="Qmove (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qmove</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Move batch jobs
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qmsg&amp;action=edit&amp;redlink=1" class="new"
+						title="Qmsg (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qmsg</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Send message to batch jobs
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qrerun&amp;action=edit&amp;redlink=1" class="new"
+						title="Qrerun (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qrerun</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Rerun batch jobs
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qrls&amp;action=edit&amp;redlink=1" class="new"
+						title="Qrls (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qrls</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Release batch jobs
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qselect&amp;action=edit&amp;redlink=1" class="new"
+						title="Qselect (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qselect</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Select batch jobs
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qsig&amp;action=edit&amp;redlink=1" class="new"
+						title="Qsig (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qsig</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Signal batch jobs
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Qstat_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Qstat (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qstat</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Show status of batch jobs
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Qsub" title="Qsub"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">qsub</code></a>
+				</th>
+				<td>Batch utilities
+				</td>
+				<td>Obsolescent (BE)
+				</td>
+				<td>Submit a script
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Read_(Unix)" title="Read (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">read</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Read a line from standard input
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Renice" class="mw-redirect" title="Renice"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">renice</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Set nice values of running processes
+				</td>
+				<td>4BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Rm_(Unix)" title="Rm (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">rm</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Remove directory entries
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Rmdel&amp;action=edit&amp;redlink=1" class="new"
+						title="Rmdel (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">rmdel</code></a>
+				</th>
+				<td>SCCS
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Remove a delta from an SCCS file
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Rmdir" title="Rmdir"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">rmdir</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Remove directories, if they are empty.
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Sact_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Sact (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">sact</code></a>
+				</th>
+				<td>SCCS
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Print current SCCS file-editing activity
+				</td>
+				<td>System III
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Source_Code_Control_System" title="Source Code Control System"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">sccs</code></a>
+				</th>
+				<td><a href="/wiki/Source_Code_Control_System" title="Source Code Control System">SCCS</a>
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Front end for the SCCS subsystem
+				</td>
+				<td>4.3BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Sed" title="Sed"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">sed</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Stream editor
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Bourne_shell" title="Bourne shell"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">sh</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td><a href="/wiki/Unix_shell" title="Unix shell">Shell</a>, the standard command language interpreter
+				</td>
+				<td>Version 7 AT&amp;T UNIX (in earlier versions, sh was either the <a href="/wiki/Thompson_shell"
+						title="Thompson shell">Thompson shell</a> or the <a href="/wiki/PWB_shell" title="PWB shell">PWB
+						shell</a>)
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Sleep_(command)" title="Sleep (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">sleep</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Suspend execution for an interval
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Sort_(Unix)" title="Sort (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">sort</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Sort, merge, or sequence check text files
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Split_(Unix)" title="Split (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">split</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Split files into pieces
+				</td>
+				<td>Version 3 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Strings_(Unix)" title="Strings (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">strings</code></a>
+				</th>
+				<td>C programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Find printable strings in files
+				</td>
+				<td>2BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Strip_(Unix)" title="Strip (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">strip</code></a>
+				</th>
+				<td>C programming
+				</td>
+				<td>Optional (SD)
+				</td>
+				<td>Remove unnecessary information from executable files
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><code class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+						style="background:none; border:none; color:inherit; padding: 0px 0px;" dir="ltr">stty</code>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Set the options for a terminal
+				</td>
+				<td>Version 2 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Tabs_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Tabs (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">tabs</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Set terminal tabs
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Tail_(Unix)" title="Tail (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">tail</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Copy the last part of a file
+				</td>
+				<td>PWB UNIX<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a
+								href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span
+									title="This claim needs references to reliable sources. (May 2009)">citation
+									needed</span></a></i>]</sup>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Talk_(software)" title="Talk (software)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">talk</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Optional (UP)
+				</td>
+				<td>Talk to another user
+				</td>
+				<td>4.2BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Tee_(command)" title="Tee (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">tee</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Duplicate the <a href="/wiki/Standard_streams" title="Standard streams">standard output</a>
+				</td>
+				<td>Version 5 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Test_(Unix)" title="Test (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">test</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Evaluate <a href="/wiki/Expression_(computer_science)"
+						title="Expression (computer science)">expression</a>
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Time_(Unix)" title="Time (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">time</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Time a simple command
+				</td>
+				<td>Version 3 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Touch_(command)" title="Touch (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">touch</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Change file access and modification times
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Tput" title="Tput"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">tput</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Change <a href="/wiki/Computer_terminal" title="Computer terminal">terminal</a> characteristics
+				</td>
+				<td>System V
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Tr_(Unix)" title="Tr (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">tr</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Translate characters
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/True_(Unix)" class="mw-redirect" title="True (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">true</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Return true value
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Tsort_(Unix)" class="mw-redirect" title="Tsort (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">tsort</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Topological sort
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Tty_(unix)" title="Tty (unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">tty</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Return user's <a href="/wiki/Computer_terminal" title="Computer terminal">terminal</a> name
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Type_(Unix)" title="Type (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">type</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Displays how a name would be interpreted if used as a command
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Ulimit&amp;action=edit&amp;redlink=1" class="new"
+						title="Ulimit (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">ulimit</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Set or report file size limit
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Umask" title="Umask"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">umask</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Get or set the file mode creation mask
+				</td>
+				<td>System III
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Unalias" class="mw-redirect" title="Unalias"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">unalias</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Remove alias definitions
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Uname" title="Uname"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">uname</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Return system name
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Uncompress" class="mw-redirect" title="Uncompress"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">uncompress</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Expand compressed data
+				</td>
+				<td>4.3BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Unexpand" title="Unexpand"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">unexpand</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Convert spaces to tabs
+				</td>
+				<td>3BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Unget&amp;action=edit&amp;redlink=1" class="new"
+						title="Unget (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">unget</code></a>
+				</th>
+				<td>SCCS
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Undo a previous get of an SCCS file
+				</td>
+				<td>System III
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Uniq" title="Uniq"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">uniq</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Report or filter out repeated lines in a file
+				</td>
+				<td>Version 3 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Unlink_(Unix)" title="Unlink (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">unlink</code></a>
+				</th>
+				<td>Filesystem
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Call the unlink function
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Uucp" class="mw-redirect" title="Uucp"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">uucp</code></a>
+				</th>
+				<td>Network
+				</td>
+				<td>Optional (UU)
+				</td>
+				<td>System-to-system copy
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Uudecode" class="mw-redirect" title="Uudecode"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">uudecode</code></a>
+				</th>
+				<td>Network
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Decode a binary file
+				</td>
+				<td>4BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Uuencode" class="mw-redirect" title="Uuencode"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">uuencode</code></a>
+				</th>
+				<td>Network
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Encode a binary file
+				</td>
+				<td>4BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Uustat" class="mw-redirect" title="Uustat"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">uustat</code></a>
+				</th>
+				<td>Network
+				</td>
+				<td>Optional (UU)
+				</td>
+				<td><a href="/wiki/Uucp" class="mw-redirect" title="Uucp">uucp</a> status inquiry and job control
+				</td>
+				<td>System III
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Uux_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Uux (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">uux</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Optional (UU)
+				</td>
+				<td>Remote command execution
+				</td>
+				<td>Version 7 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/w/index.php?title=Val_(Unix)&amp;action=edit&amp;redlink=1" class="new"
+						title="Val (Unix) (page does not exist)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">val</code></a>
+				</th>
+				<td>SCCS
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Validate SCCS files
+				</td>
+				<td>System III
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Vi" title="Vi"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">vi</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Optional (UP)
+				</td>
+				<td>Screen-oriented (visual) display editor
+				</td>
+				<td>1BSD
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Wait_(command)" title="Wait (command)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">wait</code></a>
+				</th>
+				<td>Process management
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Await process completion
+				</td>
+				<td>Version 4 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Wc_(Unix)" title="Wc (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">wc</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Line, word and byte or character count
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><code class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+						style="background:none; border:none; color:inherit; padding: 0px 0px;" dir="ltr">what</code>
+				</th>
+				<td><a href="/wiki/Source_Code_Control_System" title="Source Code Control System">SCCS</a>
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Identify SCCS files
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Who_(Unix)" title="Who (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">who</code></a>
+				</th>
+				<td>System administration
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Display who is on the system
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Write_(Unix)" title="Write (Unix)"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">write</code></a>
+				</th>
+				<td>Misc
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Write to another user's terminal
+				</td>
+				<td>Version 1 AT&amp;T UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Xargs" title="Xargs"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">xargs</code></a>
+				</th>
+				<td>Shell programming
+				</td>
+				<td>Mandatory
+				</td>
+				<td>Construct argument lists and invoke utility
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Yacc" title="Yacc"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">yacc</code></a>
+				</th>
+				<td>C programming
+				</td>
+				<td>Optional (CD)
+				</td>
+				<td>Yet another <a href="/wiki/Compiler" title="Compiler">compiler</a> compiler
+				</td>
+				<td>PWB UNIX
+				</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href="/wiki/Zcat" class="mw-redirect" title="Zcat"><code
+							class="mw-highlight mw-highlight-lang-text mw-content-ltr" id=""
+							style="background:none; border:none; color:inherit; padding: 0px 0px;"
+							dir="ltr">zcat</code></a>
+				</th>
+				<td>Text processing
+				</td>
+				<td>Optional (XSI)
+				</td>
+				<td>Expand and concatenate data
+				</td>
+				<td>4.3BSD
+				</td>
+			</tr>
+		</tbody>
+		<tfoot></tfoot>
+	</table>
+
+</body>
+
+</html>
